@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className="bg-emerald-100 grid grid-cols-2 ">
       <div className="py-6 px-8 md:px-8">
-        <h2 className="text-3xl font-bold text-left">
-          Stephen<span className="text-emerald-600"> Dinh</span>
+        <h2 className="text-3xl font-bold text-left text-emerald-950">
+          Stephen Dinh
         </h2>
       </div>
       <div>
