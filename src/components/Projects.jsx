@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="py-20 align-element" id="projects">
       <SectionTitle text="Web Creation" />
-      <div className="py-15 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className="mt-16 py-30 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
         {projects.map((project) => {
           return <ProjectCard key={project.id} {...project} />
         })}
