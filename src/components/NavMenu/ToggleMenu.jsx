@@ -9,7 +9,7 @@ const ToggleMenu = () => {
     setShowToggle(!showToggle)
   }
   return (
-    <div className="py-6 absolute right-10 md:invisible">
+    <div className="py-6 absolute right-10 visible md:invisible">
       <button
         type="toggle"
         className="btn bg-blue-500 hover:bg-blue-700 font-bold py-1 px-4 rounded  text-white"

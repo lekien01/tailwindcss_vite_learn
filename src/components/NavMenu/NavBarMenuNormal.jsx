@@ -3,11 +3,11 @@ import { links } from '../../data'
 const NavBarMenuVertical = () => {
   return (
     <div>
-      <ul className="pt-4 flex flex-col space-y-4">
+      <ul className="bg-white pt-4 flex flex-col space-y-4 ">
         {links.map((link) => {
           const { id, href, text } = link
           return (
-            <div>
+            <div className="bg-white ">
               <a
                 key={id}
                 href={href}

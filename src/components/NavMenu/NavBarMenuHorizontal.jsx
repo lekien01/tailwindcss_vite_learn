@@ -2,12 +2,12 @@ import React from 'react'
 import { links } from '../../data'
 const NavBarMenuHorizontal = () => {
   return (
-    <div className="pl-60 py-6 gap-4 invisible lg:visible">
+    <div className="pl-60 py-6 gap-4 invisible md:visible">
       <ul className="inline-flex">
         {links.map((link) => {
           const { id, href, text } = link
           return (
-            <div className="flex flex-row space-x-4">
+            <div>
               <a
                 key={id}
                 href={href}
