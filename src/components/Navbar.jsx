@@ -7,7 +7,7 @@ import ToggleMenu from './NavMenu/ToggleMenu'
 
 const Navbar = () => {
   return (
-    <nav className="bg-emerald-900 h-16 grid grid-cols-2 ">
+    <nav className="bg-emerald-900 h-16 grid grid-cols-2 relatives">
       <div className="py-2 px-8 md:px-8">
         <img src={icon} className="h-12 rounded" />
       </div>

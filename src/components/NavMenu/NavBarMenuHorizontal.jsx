@@ -2,7 +2,7 @@ import React from 'react'
 import { links } from '../../data'
 const NavBarMenuHorizontal = () => {
   return (
-    <div className="pl-60 py-4 gap-4 invisible md:visible">
+    <div className="md:px-60 py-4 gap-4 invisible md:visible">
       <ul className="inline-flex flex-row space-x-4 text-white">
         {links.map((link) => {
           const { id, href, text } = link
