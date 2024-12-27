@@ -9,9 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-emerald-900 h-16 grid grid-cols-2 ">
       <div className="py-2 px-8 md:px-8">
-        <a href="menu">
-          <img src={icon} className="h-12 rounded" />
-        </a>
+        <img src={icon} className="h-12 rounded" />
       </div>
       <div>
         <ToggleMenu />
